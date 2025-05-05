@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    background-color: #FFDEDE;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: #faa3bd;
+    justify-content: center;
+    margin: 0px;
+    overflow:hidden;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color:rgb(26, 28, 37);
+    padding: 15px;
+
+}
+
+.menu a:hover {
+    background-color: rgb(174, 188, 199);
+}
+
+.menu li {
+    flex: none;
+}
+
+footer ul {
+    list-style-type: none;
+    background-color: #faa3bd;
+    justify-content: center;
+    margin: 0px;
+    display: flex;
+
+}
+
+.redes li {
+    float: none;
+}
+
+.redes h4 {
+    padding: 7px;
+}
+
+p {
+    text-align: center;
+    font-size: small;
+}
+
+.contenedor {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
