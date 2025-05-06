@@ -1,11 +1,29 @@
+@font-face {
+    font-family: Journey;
+    src: url(../Fuentes/MyFontRegular.ttf);
+}
+
+@font-face {
+    font-family: RedesSociales;
+    src: url(../Fuentes/SocialMediaCircled.ttf);
+}
+
 body {
     margin: 0px;
-    background-color: #FFDEDE;
+    background-color: #ffd297;
+    text-align: center;
+}
+
+.titulo {
+    min-height: 10dvh;
+    text-align: center;
+    padding-top: 5dvh;
+    font-family: Journey;
 }
 
 .menu ul {
     list-style-type: none;
-    background-color: #faa3bd;
+    background-color: #413520;
     justify-content: center;
     margin: 0px;
     overflow:hidden;
@@ -14,45 +32,72 @@ body {
 
 .menu a {
     text-decoration: none;
-    color:rgb(26, 28, 37);
+    color:rgb(255, 255, 255);
     padding: 15px;
 
 }
 
 .menu a:hover {
-    background-color: rgb(174, 188, 199);
+    background-color: #916b29;
+    border-radius: 15px;
 }
 
 .menu li {
     flex: none;
 }
 
+.menu-top ul {
+    background-color: black;
+    justify-content: center;
+}
 .menu-top li {
-    color: rgb(26, 28, 37);
+    color: rgb(255, 255, 255);
     padding: 15px;
     flex: none;
 }
 
+main {
+    font-family: Journey;
+    margin-top: 5dvh;
+}
+
 footer ul {
     list-style-type: none;
-    background-color: #faa3bd;
+    background-color: #413520;
     justify-content: center;
     margin: 0px;
     display: flex;
 
 }
 
+.redes li:nth-child(1){
+    background-color: black;
+    
+}
+
 .redes li {
     float: none;
 }
 
-.redes h4 {
-    padding: 7px;
+.redes a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.redes a:hover {
+    background-color: #5c4c32;
+    border-radius: 30px;
+}
+
+.redes h2 {
+    font-family: RedesSociales;
 }
 
 p {
     text-align: center;
     font-size: small;
+    color: white;
 }
 
 .contenedor {
