@@ -27,6 +27,12 @@ body {
     flex: none;
 }
 
+.menu-top li {
+    color: rgb(26, 28, 37);
+    padding: 15px;
+    flex: none;
+}
+
 footer ul {
     list-style-type: none;
     background-color: #faa3bd;
