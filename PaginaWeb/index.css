@@ -1,0 +1,43 @@
+.fila {
+  padding-top: 8dvh;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 64px;
+}
+.progress {
+  position: relative;
+  top: 5%;
+  left: 50%;
+  margin-bottom: 15%;
+  transform: translate(-50%, -50%);
+  background: #413520;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+}
+.progress-done {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #413520;
+  height: 100%;
+  background: linear-gradient(to left, rgb(228, 145, 21), rgb(245, 208, 166));
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  width: 0;
+  transition: width 0.5s ease;
+}
+
+.dinero {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 242, 226);
+  background: rgba(0, 0, 0, 0.082);
+  border-radius: 15px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  text-align: center;
+  margin-top: 50%;
+}
