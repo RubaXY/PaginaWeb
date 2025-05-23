@@ -1,0 +1,63 @@
+.redes ul {
+  padding: 0;
+  list-style-type: none;
+  background-color: #00000028;
+  justify-content: center;
+  margin: 5% 15% 0 15%;
+  display: flex;
+  border-radius: 15px;
+  gap: 32px;
+}
+
+.redes li {
+  float: none;
+}
+
+.redes a {
+  text-decoration: none;
+  padding: 12px;
+  color: white;
+  display: flex;
+}
+
+.equipo-container {
+  padding: 5% 10%;
+  background: url("Multimedia/ImagenesWeb/fondo_equipo.png") no-repeat center;
+  background-size: cover;
+  border-radius: 15px;
+  margin: 5% 10%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  color: rgb(255, 242, 226);
+}
+
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.miembro {
+  background-color: rgba(65, 53, 32, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.miembro:hover {
+  transform: scale(1.05);
+  background-color: rgba(145, 107, 41, 0.7);
+}
+
+.miembro h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.miembro p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
