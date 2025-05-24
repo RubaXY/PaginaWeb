@@ -6,13 +6,12 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: rgba(0, 0, 0, 0.514);
-  /* Aquí ya no hace falta cambiar nada más */
 }
 
 .carrousel {
   display: flex;
   scroll-behavior: smooth;
-  overflow-x: hidden; /* Ocultamos scroll manual */
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -28,11 +27,12 @@
   align-items: center;
   justify-content: center;
 
-  color: white;
+  color: rgba(0, 0, 0, 0.938);
   font-weight: bold;
   padding: 20px;
   box-sizing: border-box;
   text-align: center;
+  background: #eed9bb;
 }
 
 /* Botones */
@@ -65,11 +65,12 @@
 }
 
 .wrapper {
-  margin: 5%; /* Altura total ventana */
+  margin: 5%;
   display: flex;
-  justify-content: center; /* centro horizontal */
-  align-items: center; /* centro vertical */
+  justify-content: center;
+  align-items: center;
 }
+
 .elemento h2 {
   margin: 0 0 15px;
   font-size: 28px;
@@ -151,7 +152,7 @@
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   font-family: "Georgia", serif;
-  color: rgb(255, 242, 226);
+  color: rgba(0, 0, 0, 0.87);
   margin-bottom: 60px;
 }
 
@@ -160,13 +161,13 @@
   font-size: 2rem;
   margin-bottom: 30px;
   letter-spacing: 2px;
-  color: rgb(255, 242, 226);
+  color: rgb(22, 21, 19);
   font-size: 32px;
 }
 
 .goal {
   display: flex;
-  align-items: center; /* <- Aquí está el cambio clave */
+  align-items: center;
   margin: 20px 0;
   padding: 15px 20px;
   background: rgba(0, 0, 0, 0.13);
@@ -178,7 +179,7 @@
 .marker {
   min-width: 90px;
   font-weight: bold;
-  color: rgb(255, 242, 226);
+  color: rgba(255, 255, 255, 0.87);
   font-size: 1.5rem;
   margin-right: 20px;
   text-align: right;
