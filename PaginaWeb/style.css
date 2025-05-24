@@ -27,7 +27,7 @@ body {
   background-color: #413520;
   margin: 0;
   display: flex;
-  justify-content: center; /* Centra el contenido horizontalmente */
+  justify-content: center;
 }
 
 .menuJuego ul {
@@ -38,7 +38,7 @@ body {
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-  justify-content: center; /* Opcional, centra elementos dentro del ul */
+  justify-content: center;
   padding: 0;
 }
 
@@ -153,17 +153,12 @@ main {
   line-height: 1.4;
 }
 
-.redes a:hover {
-  background-color: #5c4c32;
-  border-radius: 100px;
-}
-
 .texto {
   text-align: left;
   color: rgb(0, 0, 0);
   font-size: 20px;
   margin: 0 10% 10% 10%;
-  padding: 10% 5% 10% 5%;
+  padding: 15% 5% 15% 5%;
   background: url(Multimedia/ImagenesWeb/botones.png) no-repeat;
   background-size: 190% 160%;
   background-position: 87%;
